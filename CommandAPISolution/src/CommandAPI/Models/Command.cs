@@ -1,9 +1,9 @@
 using System.ComponentModel.DataAnnotations;
-namespace CommandsAPI.Models
+namespace CommandAPI.Models
 {
     public class Command
     {
-        [key]
+        [Key]
         [Required]
         public int Id { get; set; }
         [Required]
